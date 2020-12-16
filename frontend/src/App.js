@@ -22,8 +22,6 @@ function App() {
         <footer className="row center">All right reserved</footer>
       </div>
     </BrowserRouter>
-    
   );
 }
-
 export default App;
