@@ -25,3 +25,4 @@ frontend/yarn.lock
 frontend/.eslintcache
 yarn.lock
 package-lock.json
+.env
