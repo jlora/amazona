@@ -5,6 +5,7 @@ import { signout } from './actions/userActions';
 import CartScreen from './screens/CartScreen';
 import HomeScreen from './screens/HomeScreen';
 import PaymentMethodScreen from './screens/PaymentMethodScreen';
+import PlaceOrderScreen from './screens/PlaceOrderScreen';
 import ProductScreen from './screens/ProductScreen';
 import RegisterScreen from './screens/RegisterScreen';
 import ShippingAddressScreen from './screens/ShippingAddressScreen';
@@ -51,6 +52,7 @@ const App = () => {
           <Route path='/signin' component={SigninScreen} />
           <Route path='/register' component={RegisterScreen} />
           <Route path='/payment' component={PaymentMethodScreen}/>
+          <Route path='/placeorder' component={PlaceOrderScreen}/>
           <Route path='/shipping' component={ShippingAddressScreen}/>
           <Route path='/product/:id' component={ProductScreen} />
         </main>
