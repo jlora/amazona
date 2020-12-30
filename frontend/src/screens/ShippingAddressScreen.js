@@ -85,7 +85,7 @@ const ShippingAddressScreen = props => {
         />
       </div>
       <div>
-        <labe />
+        <label />
         <button className='primary' type='submit'>Continue</button>
       </div>
     </form>
