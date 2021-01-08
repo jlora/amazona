@@ -26,3 +26,4 @@ frontend/.eslintcache
 yarn.lock
 package-lock.json
 .env
+.vscode/launch.json
